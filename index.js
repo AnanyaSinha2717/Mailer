@@ -14,6 +14,8 @@ const recipients = [
   { name: "Ananyacloud", email: "ananya.gcloud2717@gmail.com" },
   { name: "Archit", email: "goelarchit824@gmail.com" },
   { name: "Anmol", email: "anmolas999@gmail.com" },
+  { name: "Anshika", email: "kumaranshika1910@gmail.com" },
+
 ];
 
 const htmlFilePath = path.join(__dirname, "/", "template.html");
@@ -26,7 +28,7 @@ async function main() {
     const info = await transporter.sendMail({
       from: '"Ananya" <ananyasinha2717@gmail.com>',
       to: recipient.email,
-      subject: "Farewell invitation",
+      subject: "Invitation for Farewell 2k24 🔥",
       text: "",
       html: personName,
     });
